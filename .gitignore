@@ -5,3 +5,6 @@ background-estimation/build
 .DS_Store
 
 build
+
+.idea/*
+document-preprocessing-toolkit.iml
