@@ -6,7 +6,6 @@ Its purpose is only to help with the Gamera GUI shell,
 and may be omitted if you are not concerned with that.
 """
 
-# import wx
 from gamera import toolkit
 from gamera.toolkits.new_binarization_toolkit import main
 
@@ -24,15 +23,3 @@ from gamera.toolkits.new_binarization_toolkit.plugins import new_binarization
 # should be the same as the menu item, prefixed by '_On'
 # and with all spaces converted to underscores.
 
-"""
-class New_binarization_toolkitMenu(toolkit.CustomMenu):
-    _items = ["New_binarization_toolkit Toolkit",
-              "New_binarization_toolkit Toolkit 2"]
-    def _OnNew_binarization_toolkit_Toolkit(self, event):
-        wx.MessageDialog(None, "You clicked on New_binarization_toolkit Toolkit!").ShowModal()
-        main.main()
-    def _OnNew_binarization_toolkit_Toolkit_2(self, event):
-        wx.MessageDialog(None, "You clicked on New_binarization_toolkit Toolkit 2!").ShowModal()
-        main.main()
-new_binarization_toolkit_menu = New_binarization_toolkitMenu()
-"""

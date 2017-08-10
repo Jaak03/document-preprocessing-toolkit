@@ -6,7 +6,6 @@ Its purpose is only to help with the Gamera GUI shell,
 and may be omitted if you are not concerned with that.
 """
 
-# import wx
 from gamera import toolkit
 from gamera.toolkits.stable_paths_toolkit import main
 
@@ -22,16 +21,3 @@ from gamera.toolkits.stable_paths_toolkit.plugins import stable_path_staff_detec
 # correspond to them.  The name of the callback function
 # should be the same as the menu item, prefixed by '_On'
 # and with all spaces converted to underscores.
-
-"""
-class Stable_paths_toolkitMenu(toolkit.CustomMenu):
-    _items = ["Stable_paths_toolkit Toolkit",
-              "Stable_paths_toolkit Toolkit 2"]
-    def _OnStable_paths_toolkit_Toolkit(self, event):
-        wx.MessageDialog(None, "You clicked on Stable_paths_toolkit Toolkit!").ShowModal()
-        main.main()
-    def _OnStable_paths_toolkit_Toolkit_2(self, event):
-        wx.MessageDialog(None, "You clicked on Stable_paths_toolkit Toolkit 2!").ShowModal()
-        main.main()
-stable_paths_toolkit_menu = Stable_paths_toolkitMenu()
-"""
